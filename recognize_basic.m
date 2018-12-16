@@ -5,6 +5,7 @@ close all;
 %Read the Audio File
 [y ,fs]=audioread('wav/male600.wav');
 plot(y)
+sound(y,fs)
 %Set Initial Variables
 %fs=8000;                      % Sampling rate
 %Performing autocorrelation
