@@ -10,3 +10,7 @@ The fundamental frequency of a typical male ranges somewhere from  85 Hz to 180 
 It straightway returns the fundamental frequency, f0 of any input audio file with sampling frequency fs. Thus, we can directly compare it with 165 Hz and report whether the voice is of a male or a female.
 
 Limitation - Works only in Matlab 2018
+
+### Method 2
+
+![Work Flow](img/1.JPG)
