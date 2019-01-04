@@ -57,3 +57,23 @@ r=r+1;
 r1=r;
 y = i;
 ```
+In the final block values are compared with the threshold values.
+
+```
+function y = fcn(x,r,l)
+y=5;
+if r>l/3500
+    if x>160
+        y=1;
+    else
+        y=0;
+    end
+end
+end
+```
+
+As final result frequency is displayed also
+```
+0 - Male
+1 - Female
+```
