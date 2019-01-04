@@ -93,3 +93,13 @@ To use it as an MATLAB app install using **Male_Female_Voice_Recognition.mlappin
 *Go button*  -  After the selection from source button to finally select the file name shown in box, press this button
 
 Another way is directly writing the address of that file and pressing *Go button*.
+
+In the Message box where in the "Upload New File" is shown provides step by step procedure and errors made by the user while selecting the file and processing it further.
+
+*Generate Graph* - Generates the FFT graph of that audio file.
+
+**Calculate** - This button calculate the frequency using the algo proposed and using the inbuilt algo. Also it tells the gender.
+
+Note- Even though the frequecy do not match, the gender predicted is almost same in all the test cases.
+
+
