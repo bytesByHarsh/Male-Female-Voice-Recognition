@@ -11,7 +11,7 @@ It straightway returns the fundamental frequency, f0 of any input audio file wit
 
 Limitation - Works only in Matlab 2018
 
-Run Male_Female_inbuilt_pitch.m file to identify using this method.
+Run **Male_Female_inbuilt_pitch.m** file to identify using this method.
 
 ### Method 2
 
