@@ -1,5 +1,5 @@
 # Male-Female Voice Recognition
-Recognize whether the voice is of a male ar female
+Recognize whether the voice is of a male ar female. A matlab based *GUI application* is also created for this project
 
 ## Introduction
 
@@ -77,3 +77,7 @@ As final result frequency is displayed also
 0 - Male
 1 - Female
 ```
+
+## GUI Application
+
+![GUI](img/3.JPG)
