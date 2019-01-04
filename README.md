@@ -16,3 +16,9 @@ Run **Male_Female_inbuilt_pitch.m** file to identify using this method.
 ### Method 2
 
 ![Work Flow](img/1.JPG)
+
+Run **Male_Female_Voice Recognizer.m** file to identify using this method.
+
+## Simulink Implementation
+
+![Simulink](img/2.JPG)
