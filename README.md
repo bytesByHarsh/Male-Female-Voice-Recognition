@@ -81,3 +81,15 @@ As final result frequency is displayed also
 ## GUI Application
 
 ![GUI](img/3.JPG)
+
+To open this project go to app designer and open **GUI/gui.mlapp** 
+
+To use it as an MATLAB app install using **Male_Female_Voice_Recognition.mlappinstall**
+
+### Guide For the App
+
+*Source button*  - Used to select the source file. By default it is set to tske in only .wav files(can be changed either in source file)
+
+*Go button*  -  After the selection from source button to finally select the file name shown in box, press this button
+
+Another way is directly writing the address of that file and pressing *Go button*.
