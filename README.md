@@ -23,7 +23,7 @@ Run **Male_Female_Voice Recognizer.m** file to identify using this method.
 
 ![Simulink](img/2.JPG)
 
-Using the *From Multimedia File* block the sample audio is taken as input with 3500 samples per audio channel. This is passed to the next block where frequency of each frame is calculated
+Using the *From Multimedia File* block the sample audio is taken as input with 3500 samples per audio channel. This is passed to the next block where frequency of each frame is calculated. Following is the code for that function.
 ```
 function y = fcn(x)
 Fs=44100;
@@ -37,4 +37,23 @@ x2=zeros(length(xin),1);
 x2(1:length(x)-1)=xin(2:length(x));
 zc=length(find((xin>0 & x2<0) | (xin<0 & x2>0)));
 y = 0.5*Fs*zc/length(x);
+```
+In the next block *Persistent* is used in order to save previous result in order to use next time. This is essential for the caculation of mean frequency.
+
+Code:-
+```
+function [y,r1] = fcn(u,l)
+persistent i
+persistent r
+if isempty(i)
+        i = 0;
+end
+if isempty(r)
+        r = 0;
+end
+j=l/3500;
+i= (u/j)+i;
+r=r+1;
+r1=r;
+y = i;
 ```
