@@ -88,7 +88,7 @@ To use it as an MATLAB app install using **Male_Female_Voice_Recognition.mlappin
 
 ### Guide For the App
 
-*Source button*  - Used to select the source file. By default it is set to tske in only .wav files(can be changed either in source file)
+*Source button*  - Used to select the source file. By default it is set to take in only .wav files(can be changed either in source file)
 
 *Go button*  -  After the selection from source button to finally select the file name shown in box, press this button
 
@@ -100,6 +100,6 @@ In the Message box where in the "Upload New File" is shown provides step by step
 
 **Calculate** - This button calculate the frequency using the algo proposed and using the inbuilt algo. Also it tells the gender.
 
-Note- Even though the frequecy do not match, the gender predicted is almost same in all the test cases.
+Note- Even though the frequency do not match, the gender predicted is almost same in all the test cases.
 
 
