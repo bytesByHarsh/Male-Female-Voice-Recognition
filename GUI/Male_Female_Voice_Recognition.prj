@@ -1,0 +1,92 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="1799135057" file="E:\LNMIIT Study\Sem 5\Labs\DSP\Website\DSP Lab\Project (Male - Female Voice Recognition)\Project\Male_Female_Voice_Recognition.prj" location="E:\LNMIIT Study\Sem 5\Labs\DSP\Website\DSP Lab\Project (Male - Female Voice Recognition)\Project" name="Male_Female_Voice_Recognition" target="target.mlapps" target-name="Package App">
+    <param.appname>Male_Female_Voice_Recognition</param.appname>
+    <param.authnamewatermark>Harsh Mittal</param.authnamewatermark>
+    <param.email>harshmittal2210@gmail.com</param.email>
+    <param.company />
+    <param.icon />
+    <param.icons />
+    <param.summary>This is a program to calculate the frequency of message signal and find the gender in it.</param.summary>
+    <param.description />
+    <param.screenshot />
+    <param.version>1.0</param.version>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms />
+    <param.output>E:\LNMIIT Study\Sem 5\Labs\DSP\Website\DSP Lab\Project (Male - Female Voice Recognition)</param.output>
+    <param.guid>05d5d35d-6bfe-4429-b0d7-ef6d4c327ee8</param.guid>
+    <unset>
+      <param.company />
+      <param.icon />
+      <param.icons />
+      <param.description />
+      <param.screenshot />
+      <param.version />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.platforms />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\gui.mlapp</file>
+    </fileset.main>
+    <fileset.depfun />
+    <fileset.resources />
+    <fileset.package />
+    <build-deliverables>
+      <file location="E:\LNMIIT Study\Sem 5\Labs\DSP\Website\DSP Lab" name="Project (Male - Female Voice Recognition)" optional="false">E:\LNMIIT Study\Sem 5\Labs\DSP\Website\DSP Lab\Project (Male - Female Voice Recognition)</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>D:\Software\MATLAB\R2017a</root>
+      <toolboxes>
+        <toolbox name="fixedpoint" />
+        <toolbox name="matlabcoder" />
+        <toolbox name="matlabhdlcoder" />
+        <toolbox name="embeddedcoder" />
+        <toolbox name="polyspacebugfinder" />
+      </toolboxes>
+      <toolbox>
+        <fixedpoint>
+          <enabled>true</enabled>
+        </fixedpoint>
+      </toolbox>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+      <toolbox>
+        <matlabhdlcoder>
+          <enabled>true</enabled>
+        </matlabhdlcoder>
+      </toolbox>
+      <toolbox>
+        <embeddedcoder>
+          <enabled>true</enabled>
+        </embeddedcoder>
+      </toolbox>
+      <toolbox>
+        <polyspacebugfinder>
+          <enabled>true</enabled>
+        </polyspacebugfinder>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>6.2</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
